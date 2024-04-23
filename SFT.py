@@ -20,7 +20,7 @@ class Spectral_Filter_Transform(nn.Module):
         half_window = self.window_size // 2
         left_padding = x_filtered[:, :half_window, :].flip(dims=[1])
         right_padding = x_filtered[:, -half_window:, :].flip(dims=[1])
-        padded_x = torch.cat([left_padding, x_filtered, right_padding], dim=1)  # Padded shape: [Batch, Time + window_size - 1, Variate]
+        padded_x = torch.cat([left_padding, x_filtered, right_padding], dim=1)  # Padded shape: [Batch, Time + window_size, Variate]
 
         # Apply window and compute weighted average
         filtered = torch.zeros_like(x_filtered)
@@ -32,20 +32,14 @@ class Spectral_Filter_Transform(nn.Module):
         return filtered  # Output shape: [Batch, Time, Variate]
 
     def filter(self, x_fft):
-        # Magnitudes of frequency components, shape: [Batch, Freq, Variate]
         magnitudes = x_fft.abs()
-
-        # Top k frequency components
         _, indices = torch.topk(magnitudes, self.k, dim=1, largest=True)
-
-        # Initialize a zero tensor of the same shape as x_fft
         filtered = torch.zeros_like(x_fft)
 
         batch_size, freq_size, num_features = x_fft.shape
         batch_indices = torch.arange(batch_size).view(-1, 1, 1).to(x_fft.device)
         feature_indices = torch.arange(num_features).view(1, 1, -1).to(x_fft.device)
 
-        # Advanced indexing to place values in the filtered tensor
         filtered[batch_indices, indices, feature_indices] = x_fft[batch_indices, indices, feature_indices]
 
         return filtered  # Filtered shape: [Batch, Freq, Variate]
