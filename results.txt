@@ -1,0 +1,80 @@
+2_28_long_term_forecast_weather_96_96_SDformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el3_dl1_df512_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.17112262547016144, mae:0.2101750522851944
+Total training time: 881.5587117671967 seconds
+
+4_34_long_term_forecast_weather_96_192_SDformer_custom_ftM_sl96_ll48_pl192_dm512_nh8_el3_dl1_df512_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.22223636507987976, mae:0.25557443499565125
+Total training time: 717.331634759903 seconds
+
+2_34_long_term_forecast_weather_96_336_SDformer_custom_ftM_sl96_ll48_pl336_dm512_nh8_el3_dl1_df512_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.2795177698135376, mae:0.29764363169670105
+Total training time: 806.082106590271 seconds
+
+6_32_long_term_forecast_weather_96_720_SDformer_custom_ftM_sl96_ll48_pl720_dm512_nh8_el3_dl1_df512_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.3584827184677124, mae:0.34869658946990967
+Total training time: 643.4208641052246 seconds
+-------------------------------------------------------------------------------------------------------------------------
+4_28_long_term_forecast_Exchange_96_96_SDformer_custom_ftM_sl96_ll48_pl96_dm128_nh8_el2_dl1_df128_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.08734652400016785, mae:0.20828016102313995
+Total training time: 113.30531811714172 seconds
+
+10_34_long_term_forecast_Exchange_96_192_SDformer_custom_ftM_sl96_ll48_pl192_dm128_nh8_el2_dl1_df128_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.17744453251361847, mae:0.30040448904037476
+Total training time: 92.82717871665955 seconds
+
+10_28_long_term_forecast_Exchange_96_336_SDformer_custom_ftM_sl96_ll48_pl336_dm128_nh8_el2_dl1_df128_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.33144503831863403, mae:0.41872432827949524
+Total training time: 170.05841708183289 seconds
+
+10_34_long_term_forecast_Exchange_96_720_SDformer_custom_ftM_sl96_ll48_pl720_dm128_nh8_el2_dl1_df128_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.8290586471557617, mae:0.688757598400116
+Total training time: 117.03179907798767 seconds
+-------------------------------------------------------------------------------------------------------------------------
+2_30_long_term_forecast_traffic_96_96_SDformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el4_dl1_df512_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.37785759568214417, mae:0.262844443321228
+Total training time: 6297.489751338959 seconds
+
+2_28_long_term_forecast_traffic_96_192_SDformer_custom_ftM_sl96_ll48_pl192_dm512_nh8_el4_dl1_df512_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.3968542814254761, mae:0.2724671959877014
+Total training time: 5433.6600551605225 seconds
+
+2_28_long_term_forecast_traffic_96_336_SDformer_custom_ftM_sl96_ll48_pl336_dm512_nh8_el4_dl1_df512_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.41315680742263794, mae:0.28101539611816406
+Total training time: 5703.693908929825 seconds
+
+2_30_long_term_forecast_traffic_96_720_SDformer_custom_ftM_sl96_ll48_pl720_dm512_nh8_el4_dl1_df512_fc1_ebtimeF_dtTrue_Exp_0  
+mse:0.44735729694366455, mae:0.29556894302368164
+Total training time: 4853.39460682869 seconds
+-----------------------------------------------------------------------------------------------------------------------
+4_28_long_term_forecast_ECL_96_96_SDformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el3_dl1_df512_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.15006254613399506, mae:0.2439437359571457
+Total training time: 1225.663584470749 seconds
+
+4_28_long_term_forecast_ECL_96_720_SDformer_custom_ftM_sl96_ll48_pl720_dm512_nh8_el3_dl1_df512_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.21163341403007507, mae:0.302518755197525
+Total training time: 4926.350313425064 seconds
+
+4_32_long_term_forecast_ECL_96_192_SDformer_custom_ftM_sl96_ll48_pl192_dm512_nh8_el3_dl1_df512_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.16470883786678314, mae:0.2584744095802307
+Total training time: 2505.199394464493 seconds
+
+4_28_long_term_forecast_ECL_96_336_SDformer_custom_ftM_sl96_ll48_pl336_dm512_nh8_el3_dl1_df512_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.18037693202495575, mae:0.2745497226715088
+Total training time: 2531.468526363373 seconds 
+-------------------------------------------------------------------------------------------------------------------
+8_16_long_term_forecast_ETTh2_96_96_SDformer_ETTh2_ftM_sl96_ll48_pl96_dm128_nh8_el2_dl1_df128_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.2981303632259369, mae:0.34500086307525635
+Total training time: 153.0395152568817 seconds
+
+10_18_long_term_forecast_ETTh2_96_192_SDformer_ETTh2_ftM_sl96_ll48_pl192_dm128_nh8_el2_dl1_df128_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.3781175911426544, mae:0.39405110478401184
+Total training time: 162.46164464950562 seconds
+
+12_20_long_term_forecast_ETTh2_96_336_SDformer_ETTh2_ftM_sl96_ll48_pl336_dm128_nh8_el2_dl1_df128_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.41919681429862976, mae:0.42722171545028687
+Total training time: 166.44351863861084 seconds
+
+8_14_long_term_forecast_ETTh2_96_720_SDformer_ETTh2_ftM_sl96_ll48_pl720_dm128_nh8_el2_dl1_df128_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.4181615710258484, mae:0.43781134486198425
+Total training time: 142.23487162590027 seconds
+-------------------------------------------------------------------------------------------------------------------
