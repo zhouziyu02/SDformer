@@ -1,26 +1,25 @@
-The repo is the official implementation for the paper: [SDformer:Transformer with Spectral Filter and Dynamic Attention for Multivariate Time Series Long-term Forecasting], which is accepted at the main track of **IJCAI 2024**.
+The repo is the official implementation for the paper: [SDformer:Transformer with Spectral Filter and Dynamic Attention for Multivariate Time Series Long-term Forecasting](https://www.ijcai.org/proceedings/2024/629), which is accepted at the main track of **IJCAI 2024**.
 
 ## Usage
- 
-The project is completely based on the [Time Series Library(TSlib)](https://github.com/thuml/Time-Series-Library).
+All datasets in this paper come from [Time Series Library] (https://github.com/thuml/Time-Series-Library). You can download all datasets from [[Google Drive]](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2?usp=sharing) or [[Baidu Drive]](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy), Then place the downloaded data in the folder`./dataset`.
 
-You can reproduce the training process of SDformer by:
-
-1. adding the model in [SDformer.py](https://github.com/zhouziyu02/SDformer/blob/main/SDformer.py) into the `./models` of TSlib,
-
-2. adding the Dynamic_Directional_Attention in [DDA.py](https://github.com/zhouziyu02/SDformer/blob/main/DDA.py) into the `./layers/SelfAttention_Family`,
-
-3. adding the [SFT.py](https://github.com/zhouziyu02/SDformer/blob/main/SFT.py) into the `./layers`,
-
-4. adding the following lines into `./run.py`. 
+You can reproduce the experiment results as the following examples:
 
 ```
-parser.add_argument('--top_k', type=int, default=4, help='for Filter in SFT')
-
-parser.add_argument('--window_size', type=int, default=12, help='Window Size in SFT')
+bash ./scripts/Traffic.sh
 ```
-## Initialization
 
-The [results.txt](https://github.com/zhouziyu02/SDformer/blob/main/results.txt) records the complete results of the experiments where SDformer achieved SOTA. 
+## Citation
 
-Please note that the hyperparameter setting for each experiment is set as 'windowsize_topk_long_term_forecast_XXXXX'.
+If you find this repo useful, please cite our paper.
+
+```
+@inproceedings{ijcai2024p629,
+  title     = {SDformer: Transformer with Spectral Filter and Dynamic Attention for Multivariate Time Series Long-term Forecasting},
+  author    = {Zhou, Ziyu and Lyu, Gengyu and Huang, Yiming and Wang, Zihao and Jia, Ziyu and Yang, Zhen},
+  booktitle = {Proceedings of the Thirty-Third International Joint Conference on
+               Artificial Intelligence, {IJCAI-24}},
+  pages     = {5689--5697},
+  year      = {2024},
+}
+```
