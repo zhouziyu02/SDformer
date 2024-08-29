@@ -1,4 +1,4 @@
-The repo is the official implementation for the **IJCAI'24 Main Track** paper: [SDformer:Transformer with Spectral Filter and Dynamic Attention for Multivariate Time Series Long-term Forecasting](https://www.ijcai.org/proceedings/2024/629). **This paper was selected as the only long oral presentation of the Time Series Session**，
+The repo is the official implementation for the **IJCAI'24 Main Track** paper: [SDformer:Transformer with Spectral Filter and Dynamic Attention for Multivariate Time Series Long-term Forecasting](https://www.ijcai.org/proceedings/2024/629). <span style="color:red;">**This paper was selected as the only long oral presentation of the Time Series Session**.</span>
 
 ## About Authors
 The student authors of this paper, ranked 1st, 3rd, and 4th, all come from HKUST and HKUST(GZ). They completed their undergraduate studies at the School of Computer Science at [Beijing University of Technology](https://www.bjut.edu.cn/). If you are interested in Time Series Analysis and would like further discussion, please feel free to contact Ziyu Zhou (MPhil student) at zzhou651@connect.hkust-gz.edu.cn.
