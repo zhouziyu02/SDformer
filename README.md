@@ -17,11 +17,16 @@ bash ./scripts/Traffic.sh
 If you find this repo useful, please cite our paper.
 
 ```
-@inproceedings{zhou2024sdformer,
-  title={SDformer: Transformer with Spectral Filter and Dynamic Attention for Multivariate Time Series Long-term Forecasting},
-  author={Zhou, Ziyu and Lyu, Gengyu and Huang, Yiming and Wang, Zihao and Jia, Ziyu and Yang, Zhen},
-  booktitle={Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence (IJCAI-24), Jeju, Republic of Korea},
-  pages={3--9},
-  year={2024}
+@inproceedings{ijcai2024p629,
+  title     = {SDformer: Transformer with Spectral Filter and Dynamic Attention for Multivariate Time Series Long-term Forecasting},
+  author    = {Zhou, Ziyu and Lyu, Gengyu and Huang, Yiming and Wang, Zihao and Jia, Ziyu and Yang, Zhen},
+  booktitle = {Proceedings of the Thirty-Third International Joint Conference on
+               Artificial Intelligence, {IJCAI-24}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Kate Larson},
+  pages     = {5689--5697},
+  year      = {2024},
+  month     = {8},
+  note      = {Main Track}
 }
 ```
